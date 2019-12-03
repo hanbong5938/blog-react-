@@ -2,51 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="267663d5-7a45-4ca9-b3f9-44c747ecd1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/api/auth/auth.ctrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/api/auth/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/createFakeData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/lib/checkLoggedIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/lib/jwtMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/models/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/jsonconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/styles/palette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.bin/rimraf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/eslint/node_modules/ms/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/eslint/node_modules/ms/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/eslint/node_modules/ms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/eslint/node_modules/ms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/flat-cache/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/flat-cache/node_modules/.bin/rimraf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ms/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ms/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/bin/nopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/lib/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/lib/nopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/rimraf.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/rimraf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/touch/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/touch/node_modules/.bin/nopt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/iterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/iterator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/yallist.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/yallist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ms/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -89,6 +80,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,8 +115,19 @@
       <workItem from="1575008117684" duration="108000" />
       <workItem from="1575008240022" duration="6272000" />
       <workItem from="1575258181476" duration="64000" />
-      <workItem from="1575258257846" duration="14250000" />
+      <workItem from="1575258257846" duration="14365000" />
+      <workItem from="1575339486017" duration="463000" />
+      <workItem from="1575345494613" duration="2322000" />
+      <workItem from="1575352262723" duration="8793000" />
     </task>
+    <task id="LOCAL-00001" summary="백엔드 유저, 글 CRUD 작성">
+      <created>1575286219283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575286219283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="백엔드 유저, 글 CRUD 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="백엔드 유저, 글 CRUD 작성" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="215" width="800" height="673" key="#ESLint" timestamp="1574830733987">
@@ -142,33 +147,41 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="643" y="274" width="624" height="555" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575258188402" />
-    <state x="289" y="58" width="1332" height="986" key="CommitChangelistDialog2" timestamp="1575286218121">
+    <state x="289" y="58" width="1332" height="986" key="CommitChangelistDialog2" timestamp="1575362430840">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="289" y="58" width="1332" height="986" key="CommitChangelistDialog2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575286218121" />
+    <state x="289" y="58" width="1332" height="986" key="CommitChangelistDialog2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362430840" />
+    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl" timestamp="1575352213552">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575352213552" />
+    <state x="449" y="188" key="SettingsEditor" timestamp="1575345528337">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575345528337" />
     <state x="804" y="457" width="302" height="188" key="VCS.ChangelistChooser" timestamp="1575269195394">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="804" y="457" width="302" height="188" key="VCS.ChangelistChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575269195394" />
-    <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1574841123709">
+    <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1575362442127">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1574841123709" />
-    <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575013591095">
+    <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362442127" />
+    <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575361323792">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575013591095" />
-    <state x="609" y="239" width="701" height="628" key="find.popup" timestamp="1575271857224">
+    <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575361323792" />
+    <state x="609" y="239" width="701" height="628" key="find.popup" timestamp="1575362239181">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="609" y="239" width="701" height="628" key="find.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575271857224" />
+    <state x="609" y="239" width="701" height="628" key="find.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362239181" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1575259227009">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="254" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575259227009" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1575272360005">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1575362244281">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575272360005" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362244281" />
   </component>
 </project>
