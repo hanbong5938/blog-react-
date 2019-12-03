@@ -1,3 +1,3 @@
 # blog
 
-React js
+React js, MongoDB
