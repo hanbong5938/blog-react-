@@ -1,7 +1,13 @@
 import React from 'react';
+import Header from "../components/common/Header";
 
 const PostPage = () => {
-    return <div>포스트 읽기</div>
+    return (
+        <>
+            <Header/>
+            <div>안녕하세요</div>
+        </>
+    )
 };
 
 export default PostPage;
