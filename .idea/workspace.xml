@@ -2,97 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="267663d5-7a45-4ca9-b3f9-44c747ecd1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/common/HeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/createRequestSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/TagBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/WriteActionButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/Editorcontainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/TagBoxContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/write.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/0f39df60560c3e18032baebf2d9e4fb1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/1048d2f62fcf6ea840c3e12bdd417ef0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/28c194d250fc19087df7b10042b85d9f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2aea562182848423f8fd453cd7de22ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/31f9c8bfaf14d7c3c598fe9188eb1f90.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/3453dd38379302a2cbe40e35aaae2dda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/3547b38ba0b702c8bdb802efa74ce90c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/434171fcb43779ef67b2d2d4e73360cb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/4952465850baf20dc395fef755839f2f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/4abf60cdbbecccc3d9f10a78bba65029.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6189d82cd1c0e03bad0f3ff9d0f67084.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6331cf8a10f4a40176d76b9ffac1b188.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/75ad06e39ba58336f6a6de089d1d3974.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/8879ae3260314d5c8d1c89548f6deb05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/90677fa8522ccf243e211ff2365d9dd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/b5ead3dfb3c6d54ae310b5004de54cc5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/b94405dcabff0bc714e06ade667818a7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d3000812f9b203378bce2a5f35757fed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/deecd496affc33c82697ca1fecc02148.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e4d2e21f682feb6c8a95e14bed2c65ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e691a70a589465e8fdc9c7df382c81d1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e6f72eaf39300ddd1d335043009c6697.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/ecfc3ba1db78798a804d3469e6c86110.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/f4bc1f66d4649871ffc05a3470744925.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/f8190552b9fb3e7d503ca1c213addf2a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/fda01b71c1a29670d0f0706d59ae09d4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/fde4b1cab5a21a3574caf0b0790b593b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/044dd1c038b931c10b952d48c8027fba329050c8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/06e5817101d63d1a3b541db23a2a5ac02e93da32.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/196b0433696919811950b0474caabd90c6337d73.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/1b6a7242cb6fe85ee30a58ec5f8a73d22619075b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/2bf62346a8bcee6cd3292a3cd9410ee8ec224275.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/386b16fd763c457431d3f71e1b55a458a557c2f2.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/6ced126c9e4a25d0c3bbaa40d9276e8b9898c404.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/6d6959a460a3ce113ea8d757cbe935950cb39832.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7299645dcbde425242014f4068329e6380b3cb57.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7607045cb23fc1d1a76fa40424690999f833cf2f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7cc5979727caada85b2707af9e086357fdb19975.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7eab0388d4e59bae30c47cf4f1a2f683da41b16e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/8456f80098e5c6b78a0281e3c97746424f3775bd.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/87c1cdebe345198acd67ca624302e45f29027bb4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/897b4474ebb06c67ce3e9e0f13cf76528bfd5579.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/9e1c23c13b980d1f99a06864da69a1b69b77e2ce.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/bf569baaefc03f59fba042c68f794c40dd4fc5ed.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/c91c9dbcbdd6ac765e60d6f7c989dcecd8b418b2.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/d68bb1974828f128ec1321ef8036f7072960117b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/dba3871c6106924354e8491caa3ae948b38630a5.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e1151ae153f4568dac9ceb79f26317246addc9d9.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/eabbe104cc9d5c9dffca25e26d4be45631af103b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/ec2b01f4597d98739922f79564e30aff59fe212e.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f93481ecb1e3570faed9a0376a4e28ad9741fc8f.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/fc6ebcb7e05d2543a030fb21af9f4b1212ec3da2.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/ff5099f926d195d0c1c8e09b468c07825f82308f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/04611098b5f4eccd462492b15d39dc54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/053c954289a95928375f3898737205dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/0598b76e02fba6c7ca154532b3f3f32b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/05cbecf86f0eccdc6eb92c9990508f7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/091878d9253a8c476528b3fe80dae2fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/0c7cff649c74130ff401613d0d163e68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/0d610a80e59e0ec8e71b7bc338e7b993.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/1054ee700f7a4c5109d4781c0a78ae08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/121c543dccd1a31004b491f42506bfa6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/13817047380d32cc2fe4d32ad7b74ea7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/13a1eb756970672e13251e00756b5567.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/161f32ed38e27c0d9180d30d6fa0db39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/1716da3fbd0de3994b113a0ee8ba2ac9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/18bbfb23f894fae2a646075ebd928744.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/1fd4d645a1e3c45de57750f735fac68a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2068b3eaca58dfa54c348e3e6fefdd29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2a4d273126ea7d09f964f0702ab79bc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2bed9a3a64d6ebafec3827724c457482.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2c1d28c4cb44a48eb71a5ab67ffab3c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2cd64b282738cef10141ebe931f03521.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2e45656fb4e5e1886f660a395342fac0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/2f28c41f5d117172a319e678a051c61c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/349ceb35e2b519ba2c735b4c67457610.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/34b2ab0a62185f92c7cc69267953d01b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/3ace7f7c30c7c52ca010306784b97c71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/3d183c756eb37bb58efbc4924f1aed88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/3ed7ef376c65c4ae7f581a7e97877753.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/41837382879727d631adcc0488e4b525.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/44140f64a49b4b36f10a6ce9ae9d0ef1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/46614254c1cdfb951f5d3044708e2c28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/48de451e666f19c9fd43e58f946bf291.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/4937f46f18672c4f6c1d1f0bcd9d3bde.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/49c7ccf00d7cf465808f5e325f86d3cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/4def2c24eb4081e818d6a4f8b839aecc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/4f47f40148b00b4960ea11b8c03588d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/526e75ef4834f4574d30183ec9a504b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/52d3c59092f05712e5c994728791ccb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/588f1255bf03e819a426b0ea456cda4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/5976af91de45abdf856f0c8acb743e59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/5a42fb6a6e45a6d830c82b2e368bff79.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/5b410523ee02282da06153ee6024806e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/63a52bf053ecc081ab70d0cfabcffe88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/66e86be8f5b70bf5c1314f5cedde72a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6703385b33ebc7e7938bcebe2450c60e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/67e4afc676d680d40d4ecd35ff4fc2de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/67fdf704fcac9ad2f1c26e74ec303c61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/68b747d156b1a4ba3f5a3c4267895a75.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/696ee42ae7ab6691174d65e00e1f1c50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/69a1a2b2e24deb8b60edbf734b46c6fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6a70cbac6b43d09f9a9b3052c3258c10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6ad87152af77282c9b6927844a784d16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6b292e59444989f0aa3be96664493e7f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/6ce49dc6a5cbcd6bd316cc803375a234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/701b34ffa255309a960bc85137183f3e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/722e923f99efe35bd02f60ffcdc65109.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/75875cc75c2a55efc5020447977ffc38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/78dc3d1d148313e66dde094c96ef03ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/7f8ae343b4035f0bc7d1f313f9b44325.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/836934a4d6c7a357990c44761e6ca3e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/8537f8564d5379392a45c426c631c03d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/8b5f83b3c21a2890fc5f02ec1373144d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/8d051e77323a77b15bb2459c0ae6a791.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/939496a03d103c803ca3e15255377a53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/948284462ea32869a558eb2d453ad3a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/94e1f389a48c0b3199ff9fd38e542714.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/9768d6fcedee0549b526d08d2ea0e0f8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/9c4dec383e6b05f5322aaa0381023984.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/a098873841b6c3c346018c1ec9caa528.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/a592e4e7b890f268277463ca63d5d040.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/ac93a27bba96d3e1b786cbb3936c559c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/ad57182326ad15f461aa6892963825d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/b1ab1c199cb10c0aa51acec22de02c7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/b2995172e7b6fd19264b138c1f4361a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/ba0e1877bf9ee3604bd82c4afb5b37f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/bf09ac0d7bb4ecdc753d46f1823b9cc7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/c200abe74497483daedc1c3a7e70c192.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/c2f740888bdcc6f67bf3c0fdc875a9e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/c4653d555d2b9f6da2e8557d32a5e564.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/c88b95cb5affd6c8a3b0f4bd6b8e3828.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/caacf40de42276e0f74c28d2125a0125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/cd3caeb21a7183ac6f3e5ba9a45ba5ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d29534cad9ecb0ff67f8204c36b1f0b5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d4fbc59e9affa5c038f22805ccfe1e22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d769080b829ae9fbed1c4de0fbeb3b32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d7d6149cc855530a00f2da76608be0b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d7dbd815e8d290d805e342456b4c902d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/d9619d644b9026bb46c6add4a9b9f5b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/de9fa30ce6ada506d911f565e724c953.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e04a04813801f58f9c880c70e4fac099.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e16ae13b32b4d8bc5cb2e91ab63f6315.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e2f1adf43f0d86cbbde7aeb53b39d56c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e4303e0d9d3a0ecaf2be96363fe91117.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/e842538e3f455e8e8fed0decbf36f172.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/ebe46dbafaa113a33e589195305e5ff5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/f7f53800aa36feb0d6e0fed6128a59c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/babel-loader/fd6c42e6690484af922be9abc9b1c8d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/02d5d54f13f098ead5f0ec7f8096b203000fa957.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/0814cb8c42f612d5a59be48427d75996601c72a0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/08e05b796ad65254092a28e1cd5916df5a6daae8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/0a59e774ef9fbad9b78dd21d745837712e2d448d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/0baa3d3bdafa5cbbed8a6fd237a2b25e3b5afb27.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/0f56d60768371988d613fdabee314c3405f4fb59.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/16841e4ce59b58bc8af15df4d0947c9e817bfd54.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/16ce9ddc3e8996b3ffb3b78e6b3363bd97978e19.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/19a82819d209e580aadbb5b48f517970fe0a4c0b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/1dbed8b417f70c69f6428ecf34a3057308f8615f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/1de56d0bb3d71b50141d294e2c0479d1e3183c11.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/1ea67ab87fd6098fb9503c20f7e796305175411f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/20c75fc58b75eca37a8741d55f2216b21aa3ec9e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/21b8d4f6d1a486c506dc60dedfff18ae0bbc4559.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/23b642e0745cf4ed74bfaf8a401664d70f8f60a5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/23e4166d4da015a56ae4b6b1224b304b17f72cb5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/2d398997295c011e189841bc139ec2c1b6c37430.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3043e9916199ad8a074e1240ab5acc229f784da8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/35f41f178e2e499623e7a6b725016cec991b6dd2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/39db51de13571f10dd564db2e3227d193f00874b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3d07a78e4309e398e5b74ec20aa254362bfb2f1f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3dbd67187e57e047196959ffadaba0a4d4cc16c1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3df63b127dc90e3fdd1451fd6b12cb44e214210e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3ec7143caacab6a7f53a95d253fa90a0b75dd63b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3fbb4c56b6f9fc4e01312a9d4d127faccb7f9949.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/3fc9fc99560037772b868b1f49594df88275d0a7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/406cdd344a2c0d3d66428e97bc091f0e2745ae1a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/5827bbf459484d30611577ec046691c9639d4a24.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/585f7ee3434059460769240b5d465ad9460038ac.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/588a08943034e4ff1a6026843c9f4e666e130234.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/59d3cfef1abd16b971de149d4e04a8310a2da141.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/5b782c0285bc54b859c33fb0120a9deaed1a0bb2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/5ba576b27ce1ec8d84baf159dc6f285cece0c8e3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/5d23f8692039d3f8a282a5765374cb146e00e269.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/5dc9cf4a617fe292b97826ffe2bde336847dbb8c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/61f5d91615a4f0dae9c4d22f6f13aa76de1a9ca8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/64a85ee3da40c5776d196078c1e5b9c1337f5427.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/688444d9b249e69c803a69fae265283ef713a341.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/6a8f396419dd11a728e0282e1515004b1f501eb5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/6dfbf321085f60c985f8203eb886e705b9f12d29.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/710b9f4ebdaa4caddd538162adc0f886358b8079.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/739293c3edb71ea0437b4bffb03849f6c1c11a42.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/74bbd990c13d59868ae3c9b255794bb76599444d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/753afdc8eaa44f95a9b1963a210c3560136c70e6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7a69a2d90c4926aabfb71366074e2bbdc0091240.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7aca5e4b1b168949088d97ba87aeda1f672f61de.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7dfa6a482d60e3f8b75308f4040a59636182e1f0.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7dfa6a482d60e3f8b75308f4040a59636182e1f0.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/7f4420ff1a5558bcd2dd1031b0b38965d18b9681.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/8413ce1392e835978986746e7b6f5b0064712b1e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/884ee1bc52838758503f9196f580a6bb8000b6d7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/8954d66bc9bf210044a03291cbf13169e6016675.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/8e56521fd1c9a20e6e480f8f277b3e53227d4b41.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/8e990592309f2ed83ac858544abd076d5897e9c1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/9191fd7b9b5c5f50f9bef9eb60ec42a9e190229d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/95ec07a7c3e3e9ed4d0f596dba7d34e96d578312.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/996a38f5e42a55efdeeac3ac1adf3a908f4d0fea.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/9b2eb1fad4b3d2c116f359ac75c2d458a6c426e3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/9cafe630e22ce84ddf890eb8632cdbb1efe5775f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/a374cdec27e426f613fd312870a6756942857cf1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/a67e54f3c9c8370f75f622ce8b3218a48f224b74.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/a985a8b856dd4478772042c54109a9b167515f52.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/b2320066a02f1894c7384ec67dc904b901af96db.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/b5b6b55c640e9a75b4228948fe09f947ca9aa5ce.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/b85a31f0baf5f86d10352f280009162332b4d8d1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/b8f0adef8c5064b0b7f187638c7dcd6a1732d069.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/b919881c00b75b5a6d2497a9b10ff5668b8b1104.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/bb97435a1f637bc7bdcf99e61a2647dab25fbd49.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/bdfeed4bbb384aa6e64a92adb1e7ff4940c18402.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/c00c27ae18043a524c4f492acd8e90ba422cc36a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/c438e163db098f64677d6cc9b55ea3e88561c4ea.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/c4fca70d2e04d42a9623aca552850026da18a342.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/c7d9e9185190e2bc1a933e1696931426347bea2e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/cb92dd26a89e9f0393f63f2ae9e70b2e95c1985e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/cc4417bffc0a78b0dd96fd28c1a92235af9ea7f9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/cca9c07e3a9290e84c4707c9cdb0fdce3b5ed52c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/cfaad36a8ee2a4801dbc9b86cfb732fa4fa665f6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/d0da63c798cfe66547b2fc8a887c4a8444775d04.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/d351fe33909703b88f23a4d516a8df92d0aa087a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/d60c2bdedc6a3fd979e19e3c7d0baf754bf20ba6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/d64d34f3ef15c4a1decba6e44a0958c1215883e2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/db3d703b5bd11367cfe7c609fd4d7482c6300a90.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e04e48503cf8afac044131ae4fab57401a25252e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e180640bc74110dd645434bd41bd8ec327254b20.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e1f1f6225490260f1767fe707ee631f6bf9eb214.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e22f6c2a4a07a33dbfab1f0fabb89cf563e31d6f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e290579546353719c423fe0a36a92086dba793be.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/e977d48adf7d22be69cc132fb5113c3c07503089.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/ec905576c0098167da7123872b808166b64d318c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f058ef5354af34a7fe95a3129d0af8e36a273d95.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f225648bd4f984d6dc8ba3df7d17ecfd051da526.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f26b4f30eed5f54a6f76a4bb59a879cefe9ae70a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f32f7f9fdf9204f4939215d4afd375a722e194dc.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/f3369c75696e6bd020a99328b4311c1cfe4ac10e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/fbcd2185e41a0069e19a86cabb61922aef46f651.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/fec62b55653a1840012fad690b688d1cffebb5cb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.cache/eslint-loader/fee602fd05971c7b0cd558c3b9182fbe1260af5a.json.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/debug/node_modules/ms/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/debug/node_modules/ms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/dist/debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/node_modules/debug/src/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/ms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/ms/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/ms/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/ms/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/umd/eventemitter3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/umd/eventemitter3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/umd/eventemitter3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/eventemitter3/umd/eventemitter3.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/node_modules/ms/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/containers/auth/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/containers/auth/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/containers/auth/RegisterForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +264,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog-frontend/src/containers" />
       <recent name="$PROJECT_DIR$/blog-frontend/src/containers/common" />
       <recent name="$PROJECT_DIR$/blog-backend/src/constant" />
     </key>
@@ -184,7 +307,9 @@
       <workItem from="1575382070254" duration="24000" />
       <workItem from="1575383117265" duration="1000" />
       <workItem from="1575431234895" duration="14041000" />
-      <workItem from="1575450126992" duration="4137000" />
+      <workItem from="1575450126992" duration="4368000" />
+      <workItem from="1575461148041" duration="262000" />
+      <workItem from="1575515237154" duration="10905000" />
     </task>
     <task id="LOCAL-00001" summary="백엔드 유저, 글 CRUD 작성">
       <created>1575286219283</created>
@@ -200,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575362482927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="로그인, 로그아웃, 회원가입">
+      <created>1575455859947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575455859948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +342,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="백엔드 유저, 글 CRUD 작성" />
     <MESSAGE value="프론트엔트 템플릿 작성중" />
-    <option name="LAST_COMMIT_MESSAGE" value="프론트엔트 템플릿 작성중" />
+    <MESSAGE value="로그인, 로그아웃, 회원가입" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그인, 로그아웃, 회원가입" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="215" width="800" height="673" key="#ESLint" timestamp="1574830733987">
@@ -221,11 +354,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="643" y="274" width="624" height="555" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575258188402" />
-    <state x="1889" y="32" width="1332" height="986" key="CommitChangelistDialog2" timestamp="1575455857768">
+    <state x="1889" y="32" width="1403" height="986" key="CommitChangelistDialog2" timestamp="1575531186667">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="289" y="58" width="1332" height="986" key="CommitChangelistDialog2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362430840" />
-    <state x="1889" y="32" key="CommitChangelistDialog2/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575455857768" />
+    <state x="1889" y="32" width="1403" height="986" key="CommitChangelistDialog2/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575531186667" />
     <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl" timestamp="1575352213552">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -240,14 +373,23 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="804" y="457" width="302" height="188" key="VCS.ChangelistChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575269195394" />
-    <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1575362531834">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2155" y="265" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1575455862764">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575362531834" />
+    <state x="2155" y="265" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575455862764" />
     <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575447700370">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="732" y="465" width="446" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575447700370" />
+    <state x="1700" y="127" width="1720" height="853" key="dock-window-1" timestamp="1575522919517">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1700" y="127" width="1720" height="853" key="dock-window-1/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575522919517" />
+    <state x="1700" y="127" width="1720" height="853" key="dock-window-2" timestamp="1575522919517">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1700" y="127" width="1720" height="853" key="dock-window-2/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575522919517" />
     <state x="609" y="239" width="701" height="628" key="find.popup" timestamp="1575448156495">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -256,10 +398,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="254" width="672" height="680" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575446730327" />
-    <state x="2223" y="238" width="672" height="696" key="search.everywhere.popup" timestamp="1575455719679">
+    <state x="2223" y="238" width="672" height="696" key="search.everywhere.popup" timestamp="1575530854580">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1575448641951" />
-    <state x="2223" y="238" width="672" height="696" key="search.everywhere.popup/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575455719679" />
+    <state x="2223" y="238" width="672" height="696" key="search.everywhere.popup/1600.0.1920.1080/0.180.1600.900/3520.0.1920.1080@1600.0.1920.1080" timestamp="1575530854580" />
   </component>
 </project>
