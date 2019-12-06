@@ -1,15 +1,16 @@
-import {createAction, handleActions} from 'redux-actions';
-import {takeLatest, call} from 'redux-saga/effects';
+import { createAction, handleActions } from 'redux-actions';
+import { takeLatest, call } from 'redux-saga/effects';
 import * as authAPI from '../lib/api/auth';
-import createRequestSaga, {createRequestActionTypes} from '../lib/createRequestSaga';
+import createRequestSaga, {
+  createRequestActionTypes,
+} from '../lib/createRequestSaga';
 
-//새로고침 이후 임시 로그인 처리
+// 새로고침 이후 임시 로그인 처리
 const TEMP_SET_USER = 'user/TEMP_SET_USER';
-//회원 정보 확인
+// 회원 정보 확인
 const [CHECK, CHECK_SUCCESS, CHECK_FAILURE] = createRequestActionTypes(
-    'user/CHECK',
+  'user/CHECK',
 );
-
 const LOGOUT = 'user/LOGOUT';
 
 export const tempSetUser = createAction(TEMP_SET_USER, user => user);
@@ -19,53 +20,56 @@ export const logout = createAction(LOGOUT);
 const checkSaga = createRequestSaga(CHECK, authAPI.check);
 
 function checkFailureSaga() {
-    try {
-        localStorage.removeItem('user')
-    } catch (e) {
-        console.log('localStorage is not working.');
-    }
+  try {
+      // localStorage 에서 user 제거
+    localStorage.removeItem('user');
+  } catch (e) {
+    console.log('localStorage is not working');
+  }
 }
 
 function* logoutSaga() {
-    try {
-        yield call(authAPI.logout);
-        localStorage.removeItem('user');
-    } catch (e) {
-        console.log(e);
-    }
+  try {
+      // logout API 호출
+    yield call(authAPI.logout);
+      // localStorage 에서 user 제거
+    localStorage.removeItem('user');
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 export function* userSaga() {
-    yield takeLatest(CHECK, checkSaga);
-    yield takeLatest(CHECK_FAILURE, checkFailureSaga);
-    yield takeLatest(LOGOUT, logoutSaga);
+  yield takeLatest(CHECK, checkSaga);
+  yield takeLatest(CHECK_FAILURE, checkFailureSaga);
+  yield takeLatest(LOGOUT, logoutSaga);
 }
 
 const initialState = {
-    user: null,
-    checkError: null,
+  user: null,
+  checkError: null,
 };
 
 export default handleActions(
-    {
-        [TEMP_SET_USER]: (state, {payload: user}) => ({
-            ...state,
-            user,
-        }),
-        [CHECK_SUCCESS]: (state, {payload: user}) => ({
-            ...state,
-            user,
-            checkError: null,
-        }),
-        [CHECK_FAILURE]: (state, {payload: error}) => ({
-            ...state,
-            user: null,
-            checkError: error,
-        }),
-        [LOGOUT]: state => ({
-            ...state,
-            user: null,
-        }),
-    },
-    initialState,
+  {
+    [TEMP_SET_USER]: (state, { payload: user }) => ({
+      ...state,
+      user,
+    }),
+    [CHECK_SUCCESS]: (state, { payload: user }) => ({
+      ...state,
+      user,
+      checkError: null,
+    }),
+    [CHECK_FAILURE]: (state, { payload: error }) => ({
+      ...state,
+      user: null,
+      checkError: error,
+    }),
+    [LOGOUT]: state => ({
+      ...state,
+      user: null,
+    }),
+  },
+  initialState,
 );

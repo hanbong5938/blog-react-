@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from "../components/common/Header";
+import HeaderContainer from '../containers/common/HeaderContainer';
+import PostViewerContainer from '../containers/post/PostViewerContainer';
 
 const PostPage = () => {
-    return (
-        <>
-            <Header/>
-            <div>안녕하세요</div>
-        </>
-    )
+  return (
+    <>
+      <HeaderContainer />
+      <PostViewerContainer />
+    </>
+  );
 };
 
 export default PostPage;
